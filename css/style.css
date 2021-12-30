@@ -1,0 +1,22 @@
+ *{   
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+ }
+    h1,h2,h3,h4,h5{font-weight: 700 !important;}
+    img{  width: 100%; }
+    /* THEME CHANGES BEGIN */
+    .theme_head {text-align: center;padding: 25px 0;text-transform: capitalize;}
+    .theme_head  h1{padding: 10px 0;}
+    .theme_head  h1 span{color: rgb(8, 96, 168);}
+    .theme_head  h2 span{color: rgb(7, 180, 85);}
+    /* THEME CHANGES END */
+
+    /* ANIMAL API SECTION BEGIN */
+    .animal_section{padding: 80px 0;}
+    .animal_section .card{margin-top: 20px;}
+    .animal_section .card img{height: 200px;object-fit: cover;}
+    /* ANIMAL API SECTION BEGIN */
+    select{ margin-top: 10px !important;}
+    @media screen and (max-width: 990px) {.animal_section{padding: 30px 0;}}
